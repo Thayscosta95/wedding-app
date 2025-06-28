@@ -1,0 +1,28 @@
+.logo-casamento{
+  background-image: url("../../assets/img/foto_login.jpg"); /* URL da imagem do logo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Garante que a imagem apareça ocupando a tela inteira */
+  width: 100%;
+  z-index: -500;
+ position: fixed; /* Fixa a imagem de fundo */   
+}
+
+.caixa-principal{
+    display: flex;
+    flex-direction: column; 
+    justify-content: left;
+}
+
+.botao-entrar{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    position: absolute; /* Permite posicionar a caixa de login */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+  
+    
+    border-radius: 10px; 
+}

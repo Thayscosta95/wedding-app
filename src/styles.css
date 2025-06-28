@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .pagina-principal{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+
+  }
+
+  
+  
+  .login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #4500a0;
+  }
+
+  @media (max-width: 768px) {
+    .welcome {
+      padding: 30px;
+      font-size: 16px;
+    }
+  
+   
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
