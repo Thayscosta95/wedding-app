@@ -3,26 +3,33 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: brightness(0.8); /* Ajusta o brilho da imagem */
   height: 100vh; /* Garante que a imagem apareça ocupando a tela inteira */
   width: 100%;
   z-index: -500;
- position: fixed; /* Fixa a imagem de fundo */   
+  position: fixed; /* Fixa a imagem de fundo */   
 }
 
 .caixa-principal{
-    display: flex;
-    flex-direction: column; 
-    justify-content: left;
+    text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+  padding: 2rem;
+ 
+
 }
 
-.botao-entrar{
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
-    position: absolute; /* Permite posicionar a caixa de login */
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%; /* Centraliza horizontalmente */
-  
-    
-    border-radius: 10px; 
+
+
+.botao-entrar-wrapper {
+  text-align: center;
+}
+button {
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 150px;
+  height: 100px;
+}
+mat-icon {
+  margin-right: 0.5rem;
 }

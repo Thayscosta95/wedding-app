@@ -1,12 +1,10 @@
-<div class="logo-casamento">
-  
-</div>
+<div class="logo-casamento"></div>
 
 <div class="caixa-principal">
     <h1>Bem- Vindos!</h1>
-
-      <h2>Faça o Login e confirme sua presença!</h2>
-
+        <p>Estamos muito felizes em compartilhar este momento especial com você!</p>
+        <p>Por favor, confirme sua presença </p>
+        <p>Você pode fazer isso clicando no botão abaixo.</p>
         <p>Salve esta data! 
         <br>
         <strong>20/01/2017</strong></p>
@@ -15,6 +13,12 @@
 
 
           
-      <button type="submit" class="botao-entrar">Entrar</button>
+   <div class="botao-entrar-wrapper">
+  <button mat-raised-button color="accent" (click)="irParaLogin()">
+    <mat-icon>favorite</mat-icon>
+    Entrar
+  </button>
+</div>
 
-<app-login>
+
+
