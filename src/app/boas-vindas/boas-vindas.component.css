@@ -11,10 +11,11 @@
 }
 
 .caixa-principal{
-    text-align: center;
+  text-align: center;
   color: white;
   margin-bottom: 3rem;
   padding: 2rem;
+  font-size: 35px;
  
 
 }
@@ -23,13 +24,18 @@
 
 .botao-entrar-wrapper {
   text-align: center;
+  
 }
 button {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 30px;
   width: 150px;
-  height: 100px;
+  height: 48px;
+  color: tomato !important;
+  background-color: #fff !important;
 }
+  
 mat-icon {
   margin-right: 0.5rem;
+  color: tomato;
 }

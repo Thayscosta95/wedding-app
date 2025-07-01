@@ -8,7 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-boas-vindas',
   standalone: true,
-  imports: [LoginComponent, CommonModule, MatButtonModule, MatIconModule  ],
+  imports: [CommonModule, MatButtonModule, MatIconModule],
   templateUrl: './boas-vindas.component.html',
   styleUrl: './boas-vindas.component.css'
 })
